@@ -33,6 +33,6 @@ jobs:
       with:
         image: vardhanreddy035/mysamplerepo
         registry: docker.io
-        username: ${{ secrets.DOCKER_USERNAME }}
+        username: ${{ secrets.DOCKER_USERNAME }} #changes docker-user login name
         password: ${{ secrets.DOCKER_PASSWORD }}
          
